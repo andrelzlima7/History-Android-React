@@ -1,0 +1,36 @@
+.footer{
+  margin-top: 2rem;
+  max-width: 100%;
+  background-color: #025939;
+  color: #CBE9D6;
+  padding: 1rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 25rem;
+  padding-right: 25rem;
+}
+
+.footer a{
+  color: #CBE9D6;
+}
+
+.footer a:hover{
+  color: #04D939;
+  font-weight: bolder;
+}
+
+@media(max-width:1000px){
+  .footer{
+    grid-template-columns: 1fr 1fr;
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+}
+@media(max-width:600px){
+  .footer{
+    grid-template-columns: 1fr 1fr;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}

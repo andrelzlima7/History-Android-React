@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.navigator ul{
+  display: flex;
+  justify-content: center;
+}
+
+.navigator ul li{
+  list-style: none;
+  margin: 1rem 1rem;
+}
+
+.navigator ul li a{
+  color:#04D939;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.navigator ul li a:hover{
+  font-weight: bolder;
+}

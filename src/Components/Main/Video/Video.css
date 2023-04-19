@@ -1,0 +1,50 @@
+.video{
+  background-color: #025939;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.329) 2px 2px 2px;
+  margin-top: 2rem;
+}
+
+.video iframe{
+  display: block;
+  margin: 0rem auto 0rem auto;
+  border-radius: 1rem;
+  width: 54rem;
+  height: 32rem;
+}
+
+@media(max-width:1200px){
+  .video iframe{
+    width: 43rem;
+    height: 24rem;
+  }
+}
+
+@media(max-width:960px){
+  .video iframe{
+    width: 34rem;
+    height: 19rem;
+  }
+}
+
+@media(max-width:760px){
+  .video iframe{
+    width: 27rem;
+    height: 15rem;
+  }
+}
+
+@media(max-width:600px){
+  .video iframe{
+    width: 21rem;
+    height: 12rem;
+  }
+}
+
+@media(max-width:400px){
+  .video iframe{
+    width: 12rem;
+    height: 7rem;
+  }
+}
